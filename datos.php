@@ -12,7 +12,7 @@ switch($identi){
 		ocupamos la variable "identi" que nos envía jquery para saber que datos queremos obtener.
 	*/
 	case 'usuario':
-	
+
 		/*
 		$sql = "SELECT * FROM usuarios Where id ='".$id."'";
 		$rsUsu = mysql_query( $sql,$link);		
@@ -33,7 +33,7 @@ switch($identi){
 		$data['facebook']	= "";
 		
 	break;
-	
+
 	case 'producto':
 		
 		/*
@@ -51,7 +51,6 @@ switch($identi){
 		$data['nombre']			= "Crema Arrugas"; 
 		$data['descripcion']	= "papel de lija para las desperfecciones de la cara"; 
 		$data['stock']			= "23";
-		
 		
 	break;
 }
